@@ -14,7 +14,7 @@ bool checkout() {
 int main() {
     int count = 0;
     while (!checkout()) {
-        drawLine(10 , 10 , 20 , 20 , '-');
+        drawLine(20 , 0 , 20 , 10 , '|');
         Sleep(2000);
     }
     return 0;
