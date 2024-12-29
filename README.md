@@ -1,6 +1,6 @@
 # Ascii-Graphics
 =======================
-### Tutotial :
+### Tutorial :
 
 =======================
 ### Note ( from Duncan Sample) :
