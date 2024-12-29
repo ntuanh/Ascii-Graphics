@@ -5,6 +5,7 @@
 
 
 #include "../src/shapes/line.h"
+#include "../src/shapes/rectangle.h"
 
 bool checkout() {
     char c = getch(); 
@@ -13,19 +14,11 @@ bool checkout() {
 
 int main() {
     int count = 0;
+    const char* color = "blue";
+
     while (!checkout()) {
-        drawLine(20 , 0 , 20 , 10 , '|');
+        rectangleSingle(10 , 20 , 60 , 40 , color);
         Sleep(2000);
     }
     return 0;
 }
-
-
-// #include <stdio.h>
-
-// int main() {
-//     printf("\033[1;31mThis is red text.\033[0m\n");
-//     printf("\033[1;32mThis is green text.\033[0m\n");
-//     Sleep(3000);
-//     return 0;
-// }
