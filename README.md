@@ -3,7 +3,7 @@
 ### Tutotial :
 
 =======================
-### Note ( from Duncan Sample)
+### Note ( from Duncan Sample) :
 ASCI art characters for creating diagrams
 ----------------------
 #### Characters:
@@ -32,7 +32,7 @@ Single line
 - ASCII code 204 = ╠ ( Box drawing character double line vertical and right ).
 - ASCII code 205 = ═ ( Box drawing character double horizontal line ).
 - ASCII code 206 = ╬ ( Box drawing character double line horizontal vertical ).
-Shading
+#### Shading
 - ASCII code 176 = ░ ( Graphic character, low density dotted ).
 - ASCII code 177 = ▒ ( Graphic character, medium density dotted ).
 - ASCII code 178 = ▓ ( Graphic character, high density dotted ).
