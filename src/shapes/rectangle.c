@@ -31,5 +31,21 @@ void rectangleSingle( int x1 , int y1 , int x2 , int y2 , const char* color)
     drawLine( x2 , y1 , x2 , y1 , (char)191, color );       // Upper right corner 
     drawLine( x2 , y2 , x2 , y2 , (char)217 , color );      // Lower right corner 
     drawLine( x1 , y2 , x1 , y2 , (char)192 , color );      // Lower left corner 
+}
+
+void rectangleDouble( int x1 , int y1 , int x2 , int y2 , const char* color)
+{
+    // Draw the double line horizontal 
+    drawLine(x1+1 , y1 , x2 -1 , y1 , (char)205 , color);
+    drawLine(x1+1 , y2 , x2 -1 , y2 , (char)205, color);
+
+    // Draw the double line vertical 
+    drawLine(x1 , y1+1 , x1 , y2 -1 , (char)186 , color);
+    drawLine(x2 , y1+1 , x2 , y2 -1 , (char)186, color);
+
+    drawLine( x1 , y1 , x1 , y1 , (char)201 , color );      // Upper left corner 
+    drawLine( x2 , y1 , x2 , y1 , (char)187, color );       // Upper right corner 
+    drawLine( x2 , y2 , x2 , y2 , (char)188 , color );      // Lower right corner 
+    drawLine( x1 , y2 , x1 , y2 , (char)200 , color );      // Lower left corner 
 
 }
