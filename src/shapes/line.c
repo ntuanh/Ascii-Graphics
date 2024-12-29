@@ -6,8 +6,9 @@ void testLines()
 }
 
 
-void drawLine(int x1, int y1, int x2, int y2 , char material)
+void drawLine(int x1, int y1, int x2, int y2 , char material , const char* color)
 {
+    setColor(color);
     // Check condition 
     if( x1 != x2 && y1 != y2 )
     {
